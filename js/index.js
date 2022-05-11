@@ -23,7 +23,7 @@ $(".lancar").click(function(){
     $(".lancar").css("margin-left","400px");
     $(".lancamento").css("margin-top","0em");
     setTimeout(function Redirecionar(){ 
-        $(location).attr('href', './page2.html'); 
+        $(location).attr('href', '../html/page2.html'); 
     }, 1350);
 })
 

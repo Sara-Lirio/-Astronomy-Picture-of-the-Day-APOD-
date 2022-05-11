@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/background/background_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-left: 9em;
+    margin-top: 2em;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F
+}
+
+.logo-astroday {
+    width: 20%;
+}
+
+.box-escolha {
+    background-color: rgba(26, 25, 88, 0.8); 
+    border-radius: 8px;
+    width: 26%;
+    margin: 1em 0 0 26em;
+    padding: 1.1em 1em;
+}
+
+.escolha-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3em;
+}
+
+label, .observacaoData {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+input {
+    background-color:  rgba(33, 76, 126, 0.8); 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 8px;
+    padding: .4em 0.8em;
+    width: 13em;
+}
+
+label {
+    margin: 0 0 .6em 2em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.observacaoData {
+    margin-left: 2em;
+    margin-top: .2em;
+    font-size: .8em
+}
+
+.enviar {
+    font-size: 1.5em;
+    background-color: rgba(52, 139, 173, 0.8); 
+    border-radius: 3em;
+    border: none;
+    padding: 0.3em;
+    margin-left: 11em;
+    
+}
+

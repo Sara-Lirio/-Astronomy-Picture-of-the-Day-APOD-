@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="../css/page2.css">
     <link rel="icon" type="image/x-icon" href="../img/logo/logo-icon.png">
     <title>astro.day</title>
 </head>
@@ -17,19 +17,25 @@
         <img class="logo-astroday" src="../img/logo/logo.png" alt="logo da astro.day">
     </header>
 
-    <label>Escolha a data </label>
+    <main>
+        <div class="box-escolha">
+            <section class="escolha-data">
+                <label>Escolha a data </label>
 
-    <input id="data" type="date" min="1995-06-20">
-    <p>(Apartir de 20/06/1995)</p>
-    <button id="enviar">🚀</button>
+                <input id="data" type="date" min="1995-06-20">
+                <p class="observacaoData">(A partir de 20/06/1995)</p>
 
-    <div id="resultado">
-        <p id='imagemcosmos'></p>
-        <p id="titulo"></p>
-        <p id="explanacao"></p>
-        <p id="copyright"></p>
-    </div>
+            </section>
+            <button class="enviar" id="enviar">🚀</button>
+        </div>
 
+        <div id="resultado">
+            <p id='imagemcosmos'></p>
+            <p id="titulo"></p>
+            <p id="explanacao"></p>
+            <p id="copyright"></p>
+        </div>
+    </main>
     <footer>
 
     </footer>

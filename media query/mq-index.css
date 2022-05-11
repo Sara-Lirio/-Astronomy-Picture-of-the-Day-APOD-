@@ -1,0 +1,55 @@
+/* Media Query - Index */
+/* Tablet 768px */
+@media (max-width: 768px) {
+   
+    .logo-astro {
+        width: 80%;
+    }
+
+    .iniciar {
+        font-size: 2em;
+        padding: 0.36em 0.85em;
+    }
+}
+
+/* Mobile L - 425px */
+@media (max-width: 425px) {
+    .logo-astro {
+        width: 86%;
+    }
+
+    .iniciar {
+        font-size: 1.65em;
+        padding: 0.36em 0.85em;
+        margin-top: 1em;
+    }
+}
+
+/* Mobile M - 375px */
+@media (max-width: 375px) {
+    .logo-astro {
+        width: 89%;
+    }
+
+    .iniciar {
+        font-size: 1.5em;
+        padding: 0.36em 0.85em;
+        margin-top: 1em;
+    }
+}
+
+/* Mobile S - 320px */
+
+@media (max-width: 320px) {
+    
+
+    .logo-astro {
+        width: 91%;
+    }
+
+    .iniciar {
+        font-size: 1.4em;
+        padding: 0.36em 0.85em;
+        margin-top: 1em;
+    }
+}

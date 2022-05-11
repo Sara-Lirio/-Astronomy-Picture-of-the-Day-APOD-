@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/background/background_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.iniciar {
+    background: linear-gradient(68.15deg, rgb(154, 21, 84) 16.62%, #320f40 115.61%);
+    color: rgb(201, 241, 253);
+    text-transform: uppercase;
+    border: none;
+    padding: 0.4em 0.9em;
+    border-radius: .9em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3em;
+    font-weight: 700;
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.iniciar:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0 #3498db inset, 0 0 20px 8px #3498db;
+}
+
+.section-page1 {
+    display: flex;
+}
+
+.imagem-astronauta {
+    width: 20%;
+    transition-delay: 1s;
+}
+
+.caixa-fala {
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 0.8em;
+    padding: 1em;
+    width: 40em;
+    height: 9.6em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    transition-delay: 1s;
+}
+
+.lancamento {
+    margin: 4em;
+}
+
+.lancar {
+    display: none;
+    transition: transform 2s;
+    background: linear-gradient(68.15deg, rgb(154, 21, 84) 16.62%, #320f40 115.61%);
+    color: rgb(201, 241, 253);
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: .9em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    transition-delay: 5s;
+}
+
+.lancar:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0 #3498db inset, 0 0 20px 8px #3498db;
+}
+
+.imagem-lancar {
+    display: none;
+    width: 50%;
+    animation: gira 2s;
+
+}
+
+@keyframes gira {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(60deg);
+    }
+
+    40% {
+        transform: rotate(-360deg);
+    }
+
+    50% {
+        top: 0px;
+        left: 0px;
+        transform: translate(0, 0);
+    }
+
+    100% {
+        top: 0px;
+        left: 300%;
+        transform: translate(500%, 0)
+    }
+}

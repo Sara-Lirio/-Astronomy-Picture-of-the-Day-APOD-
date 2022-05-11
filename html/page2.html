@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="../img/logo/logo-icon.png">
+    <title>astro.day</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Vamos descobrir mais sobre os cosmos? </h1>
+        <img class="logo-astroday" src="../img/logo/logo.png" alt="logo da astro.day">
+    </header>
+
+    <label>Escolha a data </label>
+
+    <input id="data" type="date" min="1995-06-20">
+    <p>(Apartir de 20/06/1995)</p>
+    <button id="enviar">🚀</button>
+
+    <div id="resultado">
+        <p id='imagemcosmos'></p>
+        <p id="titulo"></p>
+        <p id="explanacao"></p>
+        <p id="copyright"></p>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./apod.js"></script>
+</body>
+
+</html>

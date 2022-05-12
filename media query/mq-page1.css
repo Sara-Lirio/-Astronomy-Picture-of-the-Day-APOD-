@@ -68,6 +68,11 @@
 .imagem-astronauta {
     width: 38%;
 }
+    
+ .lancar {
+     
+        font-size: 1.3em;
+}
 
 /* Mobile S - 320px */
 
@@ -85,7 +90,7 @@
 
     .lancar {
         padding: 0.4em 1em;
-        font-size: 1.2em;
+        font-size: 1.05em;
 }
 
   

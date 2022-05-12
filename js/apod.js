@@ -2,14 +2,14 @@ $(document).ready(function (){
     $("#enviar").click(function(e){
         e.preventDefault();
         const data = document.getElementById("data")
-        document.getElementById('explicacaoAstro').style.display = 'inline';
-        document.getElementById('box').style.display = 'none';
-        document.getElementById('h1').style.display = 'none';
         while (data.value == ""){
             alert("Por favor informe uma data válida!")
             data++ 
-
         } 
+        document.getElementById('explicacaoAstro').style.display = 'inline';
+        document.getElementById('pesquisar').style.display = 'inline';
+        document.getElementById('box').style.display = 'none';
+        document.getElementById('h1').style.display = 'none';
        apiNasa();
     });
     
@@ -31,5 +31,6 @@ $(document).ready(function (){
     }
     }
     })
+    
     
     

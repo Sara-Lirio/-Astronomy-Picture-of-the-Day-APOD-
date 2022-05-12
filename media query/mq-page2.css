@@ -1,0 +1,63 @@
+/* Media Query - Index */
+/* Laptop 1024px */
+@media (max-width: 1024px) {
+    .escolha-data {
+        padding-left: 1em;
+    }
+
+    .box-escolha {
+        width: 30%;
+        padding: .8em .8em;
+        margin: 5em 0 0 20em;
+    }
+
+    .enviar {
+        margin-left: 9.5em;
+    }
+
+    h1 {
+        margin-left: 2em;
+        font-size: 1.9em;
+    }
+
+    .explicacao {
+        font-size: 1em;
+        width: 24em;
+        margin: none;
+    }
+
+    .astronauta-explicacao {
+        margin-left: 5em;
+    }
+
+    .titulo-resultado {
+        font-size: 1.3em;
+    }
+
+    #explicacaoAstro {
+        margin-right: .2em;
+    }
+
+    .imagem-cosmos {
+        margin-left: 2em;
+        width: 400px;
+    }
+}
+   
+/* Tablet 768px */
+
+@media (max-width: 768px) {}
+
+/* Mobile L - 425px */
+
+@media (max-width: 425px) {}
+
+/* Mobile M - 375px */
+
+@media (max-width: 375px) {}
+
+
+
+/* Mobile S - 320px */
+
+@media (max-width: 320px) {}

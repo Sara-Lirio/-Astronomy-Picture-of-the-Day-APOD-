@@ -118,3 +118,9 @@ p {
         transform: translate(500%, 0)
     }
 }
+
+.pular {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 1em;
+}

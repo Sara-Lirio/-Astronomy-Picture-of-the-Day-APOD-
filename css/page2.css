@@ -85,3 +85,54 @@ label {
     
 }
 
+.resultado {
+	display: inline;
+}
+
+.explicacao {
+    background-color: white;
+    border: 3px black solid;
+    border-radius: 0.8em;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    width: 30em;
+}
+/* 
+.titulo-imagem {
+    margin-top: 3em;
+} */
+
+.titulo-resultado {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+    0 0 0.2em #87F;
+    color:white;
+    font-size: 700;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.astronauta-explicacao {
+    width: 30%;
+  
+}
+
+#explicacaoAstro {
+    display: none;
+    float: right;
+    margin-right: 3em;
+}
+
+
+.imagem-cosmos {
+    margin-left: 3em;
+    width: 600px;
+    float: left;
+}
+
+.titulo-resultado{
+    margin-top: 2em;
+    margin-left: 4em;
+
+}

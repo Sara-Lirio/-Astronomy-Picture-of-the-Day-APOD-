@@ -13,12 +13,13 @@
 <body>
     <header>
 
-        <h1>Vamos descobrir mais sobre os cosmos? </h1>
+        <h1 id="h1">Vamos descobrir mais sobre os cosmos? </h1>
+        <p class="titulo-resultado" id="titulo"></p>
         <img class="logo-astroday" src="../img/logo/logo.png" alt="logo da astro.day">
     </header>
 
     <main>
-        <div class="box-escolha">
+        <div id="box" class="box-escolha">
             <section class="escolha-data">
                 <label>Escolha a data </label>
 
@@ -29,18 +30,23 @@
             <button class="enviar" id="enviar">🚀</button>
         </div>
 
-        <div id="resultado">
-            <p id='imagemcosmos'></p>
-            <p id="titulo"></p>
-            <p id="explanacao"></p>
-            <p id="copyright"></p>
-        </div>
+        <section id="resultado">
+            <div class="titulo-imagem">
+                <p class="imagem-cosmos" id='imagemcosmos'></p>
+            </div>
+            <div class="explicacao-astro" id="explicacaoAstro">
+                <img class="astronauta-explicacao" id="astronauta" src="../img/10.png"
+                    alt="Astronauta com seu laptoop escrevendo em um papel">
+                <p class="explicacao" id="explicacao"></p>
+            </div>
+
+        </section>
     </main>
     <footer>
 
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./apod.js"></script>
+    <script src="../js/apod.js"></script>
 </body>
 
 </html>

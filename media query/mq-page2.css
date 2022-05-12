@@ -1,4 +1,4 @@
-/* Media Query - Index */
+/* Media Query - Page 2 */
 /* Laptop 1024px */
 @media (max-width: 1024px) {
     .escolha-data {
@@ -46,18 +46,136 @@
    
 /* Tablet 768px */
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+
+.box-escolha {
+        width: 32%;
+        padding: .7em .7em;
+        margin: 5em 0 0 15em;
+    }
+
+input {
+    font-size: 1em;
+    width: 13em;
+}
+
+label {
+    font-size: 0.9em;
+
+}
+
+h1{
+    font-size: 1.4em;
+    }
+
+.escolha-data {
+    padding-left: .4em;
+}
+
+.enviar {
+    margin-left: 7.5em;
+}
+
+.pesquisar {
+    font-size: 1.2em;
+    margin-top: 1.7em;
+    margin-left: 9em;
+}
+
+.titulo-imagem {
+    display: flex;
+    flex-direction: column;
+    width: 29.1em;
+}
+
+.explicacao {
+        width: 29em;
+        margin-right: 10em;
+    }
+}
 
 /* Mobile L - 425px */
 
-@media (max-width: 425px) {}
+@media (max-width: 425px) {
+    h1{
+    font-size: 1.2em;
+    width: 12em;
+    }
+
+    .box-escolha {
+        width: 55%;
+        padding: .7em .7em;
+        margin: 5em 0 0 6em;
+    }
+
+    input {
+    font-size: 1em;
+    width: 11em;
+}
+
+.enviar {
+    font-size: 1.3em;
+    margin-left: 8.3em;
+}
+
+.logo-astroday {
+    width: 30%;
+}
+
+.titulo-resultado {
+    font-size: 1em;
+}
+
+.imagem-cosmos{
+    width: 340px;
+    height: 420px;
+    margin-left: .1em;
+}
+
+.titulo-imagem {
+    margin-top: 1em;
+    margin-left: .5em;
+     width: 20em;
+}
+
+.pesquisar {
+    margin-left: 4em;
+    font-size: 1.1em;
+}
+
+.explicacao {
+        width: 24em;
+        margin: 0 1em;
+         font-size: 0.9em;
+    }
+}
 
 /* Mobile M - 375px */
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+      .box-escolha {
+        width: 62%;
+         padding: .8em .7em;
+        margin: 5em 0 0 4.5em;
+    }
+}
 
 
 
 /* Mobile S - 320px */
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+      .box-escolha {
+        width: 72%;
+         padding: .8em .7em;
+        margin: 5em 0 0 3.8em;
+    }
+    .pesquisar {
+    margin-left: 3em;
+    }
+    .explicacao {
+        width: 23em;
+        margin-left: 1em;
+         font-size: 0.9em;
+    }
+}

@@ -25,9 +25,9 @@ $(document).ready(function (){
     
     
     if (data.media_type == "image") {
-        document.querySelector('#imagemcosmos').innerHTML = `<br><img width="600px" height="400px" src="${data.url}">`;
+        document.querySelector('#imagemcosmos').innerHTML = `<br><img width="620px" height="400px" src="${data.url}">`;
     } else if (data.media_type == "video") {
-            document.querySelector('#imagemcosmos').innerHTML = `<br><iframe width="600px" height="400px" src="${data.url}">`;
+            document.querySelector('#imagemcosmos').innerHTML = `<br><iframe width="620px" height="400px" src="${data.url}">`;
     }
     }
     })

@@ -37,7 +37,7 @@ h1{
     background-color: rgba(90, 141, 185, 0.7); 
     border-radius: 8px;
     width: 26%;
-    margin: 3em 0 0 30em;
+    margin: 3em 0 0 29em;
     padding: 1.1em 1em;
 }
 
@@ -82,7 +82,6 @@ label {
     border: none;
     padding: 0.3em;
     margin-left: 11em;
-    
 }
 
 .resultado {
@@ -110,9 +109,9 @@ label {
     margin-top: 2em;
     margin-left: 2em;
 }
+
 .astronauta-explicacao {
     width: 30%;
-  
 }
 
 #explicacaoAstro {
@@ -131,7 +130,6 @@ label {
 .titulo-resultado{
     margin-top: 2em;
     margin-left: 4em;
-
 }
 
 .pesquisar {
@@ -147,7 +145,6 @@ label {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
     margin-top: 1.7em;
     margin-left: 6em;
-  
 }
 
 .titulo-imagem {
